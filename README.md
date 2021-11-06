@@ -1,4 +1,4 @@
-# weather-app
+# Cuaca Info Website
 
 ## Project setup
 ```
