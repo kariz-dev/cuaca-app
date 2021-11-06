@@ -31,7 +31,7 @@
         </div>
       </div>
     <footer>
-      <p>© 2021 | created by <a href="http://muhammadrizwan.my.id/" target="_blank">Muhammad Rizwan</a></p>
+      <p>© {{ new Date().getFullYear() }} | created by <a href="http://muhammadrizwan.my.id/" target="_blank">Muhammad Rizwan</a></p>
     </footer>
     </main>
   </div>
@@ -226,7 +226,8 @@ main {
 footer {
    position: absolute;
    bottom: 0;
-   height: 60px;
+   left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 footer p {
